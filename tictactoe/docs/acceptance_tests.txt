@@ -1,0 +1,63 @@
+Game Type 
+Whenever the user selects to play the computer, it should display to the user an option to select the 
+difficulty. Whenever the user selects to play another user, the program should ask each player what
+piece they would like to have to play.
+Priority:  low
+Cost: 2/10
+11-16-06 Progress: 0/10
+11-21-06 Progress: 10/10
+
+X or O
+Whenever the user selects an X, the program should display an X on my piece whenever I choose a X. 
+Likewise, it should display an O whenever I choose O. 
+Priority: low
+Cost: 1/10
+11-16-06 Progress: 2/10
+11-21-06 Progress: 10/10
+
+Turn Notification
+The program should show some sort of notification that it is the user's turn.
+Priority: low 
+Cost: 2/10
+11-16-06 Progress: 0/10
+11-21-06 Progress: 10/10
+
+Game Reset
+Board will then have no pieces.
+Priority: low 
+Cost: 1/10
+11-16-06 Progress: 3/10
+11-21-06 Progress: 10/10
+
+Computer Strategy
+The computer will adapt its skill to the strategy and difficulty chosen.
+Priority: high 
+Cost: 5/10
+11-16-06 Progress: 2/10
+11-21-06 Progress: 5/10
+11-28-06 Progress: 10/10
+
+Input Type
+Whenever the user clicks an area, a piece appears if that area is empty and it is the user's turn.
+Priority: Medium
+Cost: 3/10
+11-16-06 Progress: 2/10
+11-21-06 Progress: 8/10
+11-25-06 Progress: 10/10
+
+Wins and Losses Count
+Whenever the program is closed, the score in the file should be updated.
+Priority: high
+Cost: 4/10
+11-16-06 Progress: 0/10
+11-21-06 Progress: 10/10
+
+Consecutive Wins
+Whenever the user wins another game, it should display the number of consecutive wins.  If the user 
+loses a game, the consecutive win score should be reset to 0, and also a dialog should display so the
+user can input their name into the high scores list, if applicable.
+Priority: medium
+Cost: 3/10
+11-16-06 Progress: 0/10
+11-21-06 Progress: 7/10
+11-25-06 Progress: 10/10

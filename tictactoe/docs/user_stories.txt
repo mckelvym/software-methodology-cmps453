@@ -1,0 +1,68 @@
+Game Type 
+I wish to be able to play a two person game or a game against the computer. 
+Priority:  low
+Cost: 2/10
+11-16-06 Progress: 3/10
+11-21-06 Progress: 10/10
+
+X or O
+I want to be able to choose whether I am a x or an o. 
+Priority: low
+Cost: 1/10
+11-16-06 Progress: 3/10
+11-21-06 Progress: 10/10
+
+Turn Notification
+The program should notify me whenever it is my turn. 
+Priority: low 
+Cost: 2/10
+11-16-06 Progress: 3/10
+11-21-06 Progress: 10/10
+
+
+Game Reset
+I wish to be able to reset in the middle of the game. 
+Priority: low 
+Cost: 1/10
+11-16-06 Progress: 8/10
+11-21-06 Progress: 10/10
+
+Game Exit
+I wish to be able to exit the game at any time.
+Priority: low
+Cost: 1/10
+11-16-06 Progress: 8/10
+11-21-06 Progress: 10/10
+
+Computer Strategy
+I wish to be able to choose the computer difficulty and the different types of strategies that the computer will use.
+Priority: high 
+Cost: 5/10
+11-16-06 Progress: 2/10
+11-21-06 Progress: 5/10
+11-28-06 Progress: 10/10
+
+
+Input Type
+I wish to be able to use the mouse to input my piece.
+Priority: Medium
+Cost: 3/10
+11-16-06 Progress: 8/10
+11-21-06 Progress: 10/10
+
+
+Wins and Losses Count
+The game should be able to keep a high score list in a file. 
+Priority: high
+Cost: 4/10
+11-16-06 Progress: 0/10
+11-21-06 Progress: 10/10
+
+
+Consecutive Wins
+The game should be able to keep up with my consecutive wins. 
+Priority: medium
+Cost: 3/10
+11-16-06 Progress: 0/10
+11-21-06 Progress: 10/10
+

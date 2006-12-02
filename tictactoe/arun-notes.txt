@@ -1,0 +1,75 @@
+11/21 - Could not locate cvs group repository.
+
+11/28 -
+
+- Good use of JavaDoc
+
+- Poor naming of datamembers 't'
+- Tracking progress
+- Detailed use of acceptance testing using action fixture
+- Good use of strategy pattern -- several strategies implemented
+  Well maybe not.. each strategy appears to be a thread, so the topmost method simply is run. The thread makes only one move anyway. So not sure, why it is a thread.
+
+- Has a method moveList, which really should be an array. 
+
+
+- Question 
+   -- Effort involved in increasing the size of tictactoe board.
+   -- Make board three dimensions
+
+11/30
+   - Have gone pretty extensive with java doc, which is good. But there are now too many doc directories.
+     They ought to be collapsed in one directory.
+     
+The code still needs a lot of work. Something like this just does not make sense.
+
+
+public void getTheMove(){
+		if(currentBestMove == 0){
+			tempX = 0;
+			tempY = 0;
+		}
+		
+		if(currentBestMove == 1){
+			tempX = 1;
+			tempY = 0;
+		}
+		
+		if(currentBestMove == 2){
+			tempX = 2;
+			tempY = 0;
+
+It could just as easily be made into an array like this:
+  TheMove[0].X = 0;
+  TheMove[0].Y = 0;
+  TheMove[1].X = 1;
+  TheMove[1].Y = 0;
+  
+  And then makeMove would do TheMove[currentBestMove]
+ 
+ Further the array itself could be constructed using some formula, rather than
+ hardcoded constants.
+ 
+*** Similarly, the following code ought to be improved too:
+ ...
+ boardState[0] + boardState[1] + boardState[2]) >= 0 ||
+			(boardState[0] + boardState[1] + boardState[2]) == -3){
+			cpuWinNum[counter] = cpuWinNum[counter] + 1;
+...
+
+There is clearly a pattern in the repeated if statements. The pattern can be generalized
+to have a single if inside a loop.
+
+*** In each strategy there is a move method, with a while loop. It looks like the
+method in various strategies differ in the body of the while loop... which is
+where the move is made. If so, the body of the while loop should be
+made into a method. The loop itself should be moved to the strategy.java class.
+
+
+** Use of constants 3 and 9 through the code indicates the code is very strongly tied to a 3x3 board.
+That is definitely bad. It ought to be possible to have different size tic-tac-toe boards. with 3x3 being the
+smallest.
+
+** I ran the program Driver.java and selected the hardest level. The program appear to have hone into an infinite loop.
+
+		
